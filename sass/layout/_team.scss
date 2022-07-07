@@ -1,0 +1,42 @@
+.team {
+  background-color: #f5f4fa;
+}
+
+.team__list {
+  display: flex;
+  padding-left: 0;
+}
+.team__content {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.team__item {
+  background-color: #fff;
+  /* overflow: hidden; */
+  box-shadow: var(--section-team-shadow);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team__item {
+  margin-left: 30px;
+}
+.team__item:first-child {
+  margin-left: 0;
+}
+
+/* ----------------TEAM SPECIALTY--------------- */
+.team__member {
+  color: var(--basic-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  margin-bottom: 10px;
+}
+.team__specialty {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  margin-bottom: 16px;
+}

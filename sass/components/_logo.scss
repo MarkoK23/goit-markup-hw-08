@@ -1,0 +1,20 @@
+.logo {
+  margin-right: 93px;
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  text-decoration: none;
+}
+.logo:hover,
+.logo:focus {
+  cursor: pointer;
+}
+.logo .logo--dark {
+  color: var(--basic-color);
+}
+.footer__logo--white {
+  color: var(--hero-title-color);
+}

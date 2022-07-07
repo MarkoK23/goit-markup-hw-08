@@ -1,0 +1,51 @@
+// Vars
+@import "./utils/vars";
+
+// Visually-hidden
+@import "./utils/visually-hidden";
+
+// Reset
+@import "./base/reset";
+
+// Common
+@import "./base/common";
+@import "./base/container";
+
+// Components
+// Buttons
+@import "./components/button";
+// Header
+@import "./layout/header";
+// Logo
+@import "./components/logo";
+
+@import "./components/navigation";
+@import "./components/contacts";
+
+//Hero
+@import "./layout/hero";
+
+// Benefits
+@import "./layout/benefits";
+// Occupation
+@import "./layout/occupation";
+// Team
+@import "./layout/team";
+// Team and Footer icons
+@import "./components/soc-media-icons";
+// Clients
+@import "./layout/clients";
+//Footer
+@import "./layout/footer";
+// Modal
+@import "./layout/modal";
+// Forms
+@import "./components/forms";
+@import "./components/modal";
+
+@import "./components/backdrop";
+
+// PORTFOLIO
+// Filter list
+@import "./layout/filter-list";
+@import "./layout/projects";

@@ -1,0 +1,68 @@
+/* Team icons */
+.soc-media {
+  display: flex;
+  justify-content: center;
+}
+
+.soc-media__link {
+  width: 44px;
+  height: 44px;
+  color: var(--social-media-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: color 250ms var(--animation-cubic),
+    background-color 250ms var(--animation-cubic);
+}
+.soc-media__item {
+  margin-right: 10px;
+}
+.soc-media__item:last-child {
+  margin-right: 0;
+}
+.icon-social {
+  fill: currentColor;
+}
+/* .team-soc-media .icon-soc-media {
+  color: currentColor;
+} */
+
+.soc-media__link:hover,
+.soc-media__link:focus {
+  background-color: var(--button-bkg-color);
+  color: #ffffff;
+}
+
+/* Footer icon */
+
+.social-media__item {
+  margin-right: 10px;
+}
+.social-media__item:last-child {
+  margin-right: 0;
+}
+.social-media {
+  margin-right: 93px;
+}
+.social-media__link {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+
+  transition: background-color 250ms var(--animation-cubic);
+}
+.social-media__icon {
+  fill: currentColor;
+}
+
+.social-media__link:hover,
+.social-media__link:focus {
+  background-color: var(--accent-color);
+}

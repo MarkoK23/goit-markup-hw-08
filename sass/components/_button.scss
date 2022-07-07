@@ -1,0 +1,20 @@
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border: none;
+  background-color: var(--button-bkg-color);
+  color: var(--hero-title-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  transition: background-color 250ms var(--animation-cubic),
+    box-shadow 250ms var(--animation-cubic);
+}
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
+}
