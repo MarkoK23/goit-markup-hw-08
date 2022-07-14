@@ -422,9 +422,6 @@ body {
   z-index: 99;
   padding: 48px 40px;
 }
-.mob-menu.is-open {
-  display: block;
-}
 @media screen and (max-width: 767px) {
   .mob-menu {
     display: block;
@@ -443,14 +440,17 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+.mob-menu .mob-menu__container.is-open {
+  display: block;
+}
 
 .mobile-button {
   position: absolute;
   top: 10px;
   right: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   margin-left: auto;
   background-color: transparent;
   border: none;
