@@ -103,7 +103,7 @@ a {
   border-bottom: 1px solid var(--hero-border-bottom);
 }
 
-.header-container {
+.header__container {
   display: flex;
   justify-content: space-between;
 } */

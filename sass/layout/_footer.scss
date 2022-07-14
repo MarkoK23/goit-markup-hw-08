@@ -13,6 +13,11 @@
 
 .address {
   font-style: normal;
+  margin-bottom: 60px;
+
+  @include desktop {
+    margin: 0;
+  }
 }
 .address__location {
   display: block;
@@ -22,7 +27,8 @@
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
-  margin-bottom: 9px;
+  // margin-bottom: 9px; D
+  margin-bottom: 8px;
 
   transition: color 250ms var(--animation-cubic);
 }
@@ -48,11 +54,49 @@
 }
 
 .footer__container {
-  display: flex;
+  text-align: center;
+
+  @include desktop {
+    display: flex;
+  }
+}
+.footer-tablet {
+  @include tablet {
+    display: flex;
+    justify-content: space-between;
+  }
+  @include desktop {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
 }
 .footer__box {
-  margin-right: 70px;
+  @include desktop {
+    margin-right: 70px;
+  }
 }
+.social-media {
+  @media screen and (max-width: 767px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @include tablet {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  @include desktop {
+    margin-right: 93px;
+  }
+
+  // @include tablet {
+  //   margin: 0;
+  // }
+  // @include desktop {
+  //   margin: 0;
+  // }
+}
+
 .social-media__title {
   font-weight: 700;
   font-size: 14px;
@@ -63,4 +107,8 @@
 }
 .social-media__list {
   display: flex;
+  justify-content: center;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
 }

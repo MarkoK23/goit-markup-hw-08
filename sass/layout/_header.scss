@@ -2,12 +2,34 @@
   color: var(--basic-color);
   background-color: #ffffff;
   border-bottom: 1px solid var(--hero-border-bottom);
+  position: relative;
 }
 
-.header-container {
+.header__container,
+.navigation {
   display: flex;
-  justify-content: space-between;
+  min-height: 60px;
+  @include tablet {
+    max-height: 80px;
+
+    justify-content: space-between;
+  }
 }
-.header-logo {
-  margin-right: 93px;
+.header__logo {
+  @include tablet {
+    margin-right: 88px;
+  }
+
+  @include desktop {
+    margin-right: 93px;
+  }
 }
+.header-nav {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.14;
+}
+
+// mob-menu

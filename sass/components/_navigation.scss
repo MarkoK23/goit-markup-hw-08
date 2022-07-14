@@ -1,12 +1,9 @@
-.header-nav {
-  display: flex;
-  align-items: center;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.14;
-}
 .site-nav {
-  display: flex;
+  display: none;
+
+  @include tablet {
+    display: flex;
+  }
 }
 
 .site-nav__item:not(:last-child) {
@@ -35,7 +32,7 @@
 .site-nav__item {
   position: relative;
 }
-.site-nav--current::after {
+.site-nav__link--current::after {
   content: "";
   bottom: -1px;
   left: 0;

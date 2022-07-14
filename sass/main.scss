@@ -6,7 +6,8 @@
 
 // Reset
 @import "./base/reset";
-
+// Mixin
+@import "./components/mixin";
 // Common
 @import "./base/common";
 @import "./base/container";
@@ -24,7 +25,7 @@
 
 //Hero
 @import "./layout/hero";
-
+@import "./components/menu";
 // Benefits
 @import "./layout/benefits";
 // Occupation
@@ -38,7 +39,7 @@
 //Footer
 @import "./layout/footer";
 // Modal
-@import "./layout/modal";
+@import "./components/modal";
 // Forms
 @import "./components/forms";
 @import "./components/modal";

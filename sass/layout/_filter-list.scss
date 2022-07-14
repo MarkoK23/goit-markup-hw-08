@@ -1,9 +1,16 @@
 .filter-list {
   display: flex;
-  justify-content: center;
-  list-style-type: none;
+  flex-wrap: wrap;
+  // justify-content: center;
+
+  list-style: none;
   margin-bottom: 50px;
+  gap: 15px;
+  @include tablet {
+    justify-content: center;
+  }
 }
+
 .filter-list__button {
   color: var(--basic-color);
   background: #f5f4fa;
@@ -29,11 +36,11 @@
 }
 
 .filter-list__item {
-  margin-left: 8px;
+  margin-right: -7px;
 }
-.filter-list__item:first-child {
-  margin-left: 0;
-}
+// .filter-list__item:first-child {
+//   margin-left: 0;
+// }
 
 .filter-list__button:hover,
 .filter-list__button:focus {

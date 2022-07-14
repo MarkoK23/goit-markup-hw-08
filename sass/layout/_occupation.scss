@@ -1,5 +1,9 @@
 .section-occupation {
-  padding-top: 0;
+  display: none;
+  @include desktop {
+    padding-top: 0;
+    display: block;
+  }
 }
 .occupation__list {
   display: flex;
