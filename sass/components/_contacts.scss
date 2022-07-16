@@ -39,6 +39,18 @@
   margin-right: 10px;
   text-align: center;
 }
+.contacts__icon--tel {
+  @include desktop {
+    width: 10px;
+    height: 16px;
+  }
+}
+.contacts__icon--mail {
+  @include desktop {
+    width: 16px;
+    height: 12px;
+  }
+}
 .contacts__link:hover,
 .contacts__link:focus {
   color: var(--accent-color);

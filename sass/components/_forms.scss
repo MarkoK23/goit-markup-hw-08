@@ -20,6 +20,9 @@
   color: var(--hero-title-color);
   text-transform: uppercase;
   margin-bottom: 20px;
+  @include desktop {
+    text-align: left;
+  }
 }
 .subscribe__input {
   padding: 15px 16px;
