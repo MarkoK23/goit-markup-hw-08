@@ -518,6 +518,10 @@ body {
   color: #212121;
 }
 
+.mob-menu__link--current {
+  color: var(--accent-color);
+}
+
 .mob-menu__link:active,
 .mob-menu__link:focus {
   color: #2196f3;
