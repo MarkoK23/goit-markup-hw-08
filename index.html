@@ -77,7 +77,6 @@
           type="button"
           class="mobile-button"
           aria-expanded="false"
-          aria-controls="menu-container"
           data-menu-button
         >
           <svg
@@ -128,7 +127,7 @@
                 <li class="mob-contacts__item">
                   <a
                     href="mailto:info@devstudio.com"
-                    class="mob-contacts__link--tel link"
+                    class="mob-contacts__link--email link"
                   >
                     info@devstudio.com</a
                   >
@@ -136,7 +135,7 @@
                 <li class="mob-contacts__item">
                   <a
                     href="tel:+380961111111"
-                    class="mob-contacts__link--email link"
+                    class="mob-contacts__link--tel link"
                   >
                     +38 096 111 11 11
                   </a>
@@ -386,13 +385,14 @@
                       ./images/studio.images/works/styles-and-colors-2x.jpg 2x
                     "
                   />
+                  <img
+                    src="./images/studio.images/works/styles-and-colors.jpg"
+                    alt="styles and colors"
+                    width="370"
+                    height="294"
+                  />
                 </picture>
-                <img
-                  src="./images/studio.images/works/styles-and-colors.jpg"
-                  alt="styles and colors"
-                  width="370"
-                  height="294"
-                />
+
                 <p class="occupation__text">Дизайнерские решения</p>
               </div>
             </li>
@@ -859,7 +859,7 @@
         <div class="subscribe">
           <h3 class="subscribe__title">Подпишитесь на рассылку</h3>
           <form class="subscribe__form">
-            <label for="subscribe__email"></label>
+            <label for="email-footer"></label>
             <input
               class="subscribe__input"
               name="email"
