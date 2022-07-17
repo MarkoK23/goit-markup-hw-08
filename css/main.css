@@ -546,9 +546,14 @@ body {
   font-weight: 500;
   font-size: 24px;
   line-height: 1.18;
-  color: #757575;
+  color: #2196f3;
   letter-spacing: 0.02em;
   margin-bottom: 32px;
+}
+@media screen and (min-width: 480px) {
+  .mob-contacts__link--tel {
+    font-size: 34px;
+  }
 }
 
 .mob-contacts__link--email {
@@ -556,13 +561,8 @@ body {
   font-size: 24px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #757575;
   margin-bottom: 64px;
-}
-@media screen and (min-width: 480px) {
-  .mob-contacts__link--email {
-    font-size: 34px;
-  }
 }
 
 .mob-social__list {
